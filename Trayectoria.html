@@ -1,4 +1,123 @@
-<header class="hero-trayectoria">
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trayectoria | Jorge Ruiz</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Segoe UI',sans-serif;
+background:#0b0b0b;
+color:#f5f5f5;
+line-height:1.8;
+}
+
+.hero{
+height:80vh;
+
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('Foto 1.png');
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:30px;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-size:4rem;
+color:#c9a86a;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+}
+
+.section{
+max-width:1100px;
+margin:80px auto;
+padding:0 30px;
+}
+
+.card{
+background:#171717;
+padding:50px;
+border-radius:20px;
+margin-bottom:50px;
+box-shadow:0 0 30px rgba(0,0,0,.35);
+}
+
+.card h2{
+color:#c9a86a;
+margin-bottom:20px;
+font-size:2rem;
+}
+
+.card p{
+margin-bottom:20px;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.galeria img{
+width:100%;
+border-radius:15px;
+display:block;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#c9a86a;
+color:#111;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.btn:hover{
+opacity:.9;
+}
+
+footer{
+text-align:center;
+padding:60px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="hero">
 
 <div class="hero-content">
 
@@ -12,12 +131,11 @@ Teatro Invisible, Neurociencia Aplicada y procesos participativos desarrollados 
 
 </header>
 
+<section class="section">
 
-<section class="trayectoria-box">
+<div class="card">
 
 <h2>Programa de Teatro Invisible y Neurociencia Aplicada para Personas Mayores</h2>
-
-<div class="separador"></div>
 
 <p>
 Desde el año 2022, Jorge Ruiz desarrolla de manera permanente el programa de Teatro Invisible y Neurociencia Aplicada para Personas Mayores en colaboración con el Departamento de Adulto Mayor de la Municipalidad de San Antonio.
@@ -35,12 +153,19 @@ La metodología integra herramientas provenientes del Teatro Invisible, la educa
 A lo largo de estos años, cientos de personas mayores han participado en estas experiencias, transformando los espacios comunitarios en lugares de encuentro, aprendizaje y creación colectiva.
 </p>
 
-</section>
-<section class="trayectoria-box">
+</div>
+
+<div class="galeria">
+
+<img src="Foto 2.png">
+<img src="Foto 3.png">
+<img src="Foto 4.png">
+
+</div>
+
+<div class="card">
 
 <h2>Muestra Artística "Peor es Mascar Lauchas"</h2>
-
-<div class="separador"></div>
 
 <p>
 Como resultado del proceso desarrollado en los talleres de Teatro Invisible y Neurociencia Aplicada, durante el año 2024 se presentó la obra "Peor es Mascar Lauchas" en el Centro Cultural de San Antonio.
@@ -51,15 +176,14 @@ La presentación constituyó una muestra artística y comunitaria del trabajo re
 </p>
 
 <a href="https://www.youtube.com/watch?v=xIn9WdhXwbE" target="_blank" class="btn">
-Ver presentación
+Ver Presentación
 </a>
 
-</section>
-<section class="trayectoria-box">
+</div>
+
+<div class="card">
 
 <h2>TECHO Chile – Diplomado de Liderazgo</h2>
-
-<div class="separador"></div>
 
 <p>
 Durante el año 2023, Jorge Ruiz participó como facilitador en el Diplomado de Liderazgo de TECHO Chile, desarrollado en Santiago.
@@ -73,4 +197,18 @@ En este contexto impartió talleres de Teatro Invisible y Habilidades Blandas di
 La experiencia permitió aplicar metodologías participativas y teatrales en procesos formativos orientados al desarrollo comunitario y la construcción de liderazgos sociales.
 </p>
 
+</div>
+
 </section>
+
+<footer>
+
+<a href="index.html" class="btn">
+Volver al Inicio
+</a>
+
+</footer>
+
+</body>
+
+</html>
